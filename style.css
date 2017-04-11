@@ -1,0 +1,98 @@
+*{
+	box-sizing: border-box;
+}
+nav{
+	height: 100px;
+	width: 100%;
+\
+}
+.page-top{
+	background-image: url('view.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 900px;
+}
+.top-navbar{
+	width: 100%;
+}
+
+.navbar{
+	font-weight: 700;
+	font-size: 24px;
+	font-family: monospace;
+	padding-right: 380px;
+	padding-left: 10px;
+	color: #135589;
+}
+
+.navbar-right{
+	margin-top: 0;
+	margin-bottom: 10px;
+	list-style: none;
+	float: right;
+	
+}
+li{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 13px;
+	font-family: monospace;
+	color: #135589;
+	float: left;
+	margin: 20px;
+}
+.nav>li>a{
+	position: relative;
+	display: list-item;
+	padding: 10px 15px;
+	list-style: none;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+
+li{
+	display: list-item;
+	text-align: center;
+}
+/*.header-content-inner{
+	background-image: url('view.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 700px;
+}*/
+/*img{
+	width: 100%;
+	height: 700px;
+}*/
+
+h1{
+	display: block;
+	font-weight: 700;
+	font-family: 나눔고딕;
+	text-align: center;
+	color: white;
+}
+p{
+	display: block;
+	font-weight: 700;
+	font-family: 나눔고딕;
+	text-align: center;
+	color: white;
+}
+.button{
+	border:1px dashed #135589;
+	background-color: #135589;
+	font-weight: 700;
+	float:  center;
+	color: white;
+	width: 130px;
+	height: 30px;
+	margin-top: 80px;
+	margin-left: 730px;
+}
